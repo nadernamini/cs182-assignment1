@@ -26,7 +26,7 @@ def run_cnns():
     }
     best_acc, best_model = float('-inf'), None
     learning_rates = np.logspace(-4, -2, 8)
-    weight_scales = np.logspace(-2, -1, 4)
+    weight_scales = np.logspace(-4, -2.5, 8)
     for lr in learning_rates:
         for ws in weight_scales:
             # Train a really good model on CIFAR-10
