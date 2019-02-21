@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5a67ee99-05b1-4931-850e-89decba90a69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ConvolutionalNetworks-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ConvolutionalNetworks-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConvolutionalNetworks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ConvolutionalNetworks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearning/classifiers/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearning/classifiers/cnn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,17 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deeplearning/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4455">
-              <caret line="297" column="7" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="7" />
+            <state relative-caret-position="670">
+              <caret line="317" column="24" selection-start-line="317" selection-start-column="24" selection-end-line="317" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deeplearning/classifiers/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="353" lean-forward="true" selection-start-line="353" selection-end-line="353" />
+            <state relative-caret-position="246">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -37,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="272">
+              <caret line="32" column="92" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -80,9 +82,9 @@
         <option value="$PROJECT_DIR$/deeplearning/classifiers/fc_net.py" />
         <option value="$PROJECT_DIR$/deeplearning/layer_utils.py" />
         <option value="$PROJECT_DIR$/deeplearning/solver.py" />
-        <option value="$PROJECT_DIR$/deeplearning/classifiers/cnn.py" />
-        <option value="$PROJECT_DIR$/deeplearning/layers.py" />
         <option value="$PROJECT_DIR$/run_cnn.py" />
+        <option value="$PROJECT_DIR$/deeplearning/layers.py" />
+        <option value="$PROJECT_DIR$/deeplearning/classifiers/cnn.py" />
       </list>
     </option>
   </component>
@@ -182,7 +184,7 @@
       <workItem from="1550273973414" duration="16602000" />
       <workItem from="1550343479157" duration="29288000" />
       <workItem from="1550697420743" duration="8392000" />
-      <workItem from="1550708325209" duration="1155000" />
+      <workItem from="1550708325209" duration="3146000" />
     </task>
     <task id="LOCAL-00001" summary="removed regularization and hidden dimension hyperparameter search">
       <created>1550708650715</created>
@@ -191,11 +193,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550708650715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated weight scale">
+      <created>1550709579417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550709579417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64219000" />
+    <option name="totallyTimeSpent" value="66210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -206,7 +215,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,7 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed regularization and hidden dimension hyperparameter search" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed regularization and hidden dimension hyperparameter search" />
+    <MESSAGE value="updated weight scale" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated weight scale" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/deeplearning/data_utils.py">
@@ -300,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4455">
-          <caret line="297" column="7" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deeplearning/solver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3345">
@@ -317,20 +320,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearning/classifiers/cnn.py">
+    <entry file="file://$PROJECT_DIR$/run_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="353" lean-forward="true" selection-start-line="353" selection-end-line="353" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="32" column="92" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_cnn.py">
+    <entry file="file://$PROJECT_DIR$/deeplearning/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="670">
+          <caret line="317" column="24" selection-start-line="317" selection-start-column="24" selection-end-line="317" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearning/classifiers/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
